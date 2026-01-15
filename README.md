@@ -16,8 +16,6 @@ cd "$(bat --config-dir)/themes"
 
 ### clone themes inside `themes` folder
 
-Clone the GitHub respository.
-
 ```bash
 git clone git@github.com:jeroenzeelmaekers/melange-bat-theme
 ```
@@ -38,5 +36,4 @@ Theme theme should be in `bat --list-themes`. If so add these 2 lines to your co
 # Set the theme to "Melange"
 --theme-dark="Melange Dark"
 --theme-light="Melange Light"
-
 ```
